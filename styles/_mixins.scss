@@ -1,0 +1,7 @@
+@mixin anim($time,$delay){
+    transition: all $time ease $delay;
+}
+@mixin flexbox(){
+    display: flex;
+    font-size: 0;
+}
